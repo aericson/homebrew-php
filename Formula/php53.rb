@@ -50,7 +50,7 @@ class Php53 < AbstractPhp
 
   # Previous Bison and 10.9+ patches, and multi-SAPIs patch (https://pecl.php.net/~jani/patches/multi-sapi.patch) applied
   patch do
-    url "https://gist.githubusercontent.com/javian/bfcbd5bc5874ee9c539fb3d642cdce3e/raw/48aedade9ed331ef8d68386d9b5917d6a3ef617f/multi-sapi-5.3.29-homebrew.patch"
-    sha256 "91698d27ea5fe5d2a8a71a8e673f9394b7f5b400c2cc90967c8df4c38bfbbcae"
+    url "https://gist.githubusercontent.com/javian/6d63097c8c175045aa75ca48a6b8826b/raw/ca7bad287e3af72b83fbb5f7d03186b5da2e65ae/multi-sapi-5.3.29-homebrew.patch"
+    sha256 "bdde5c0c1f9d2450d8d9d0a32882e1ee0008d8339eacf919e273e6f7937e7461"
   end
 end
